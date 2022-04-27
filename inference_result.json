@@ -1,0 +1,43 @@
+{
+    "lst": [
+        [
+            "trt-runner-N0-02/22/22-16:08:12",
+            [
+                {
+                    "outputs": {
+                        "dense/BiasAdd:0": {
+                            "values": {
+                                "array": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGY0JywgJ2ZvcnRyYW5fb3JkZXInOiBGYWxzZSwgJ3NoYXBlJzogKDEsIDcpLCB9ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAoqT+U+ykA+PwOIpr89YdS/oaVxwLXxW8BaIa6/",
+                                "polygraphy_class": "ndarray"
+                            },
+                            "polygraphy_class": "LazyNumpyArray"
+                        }
+                    },
+                    "runtime": 0.032477617263793945,
+                    "runner_name": "trt-runner-N0-02/22/22-16:08:12",
+                    "polygraphy_class": "IterationResult"
+                }
+            ]
+        ],
+        [
+            "onnxrt-runner-N0-02/22/22-16:08:12",
+            [
+                {
+                    "outputs": {
+                        "dense/BiasAdd:0": {
+                            "values": {
+                                "array": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGY0JywgJ2ZvcnRyYW5fb3JkZXInOiBGYWxzZSwgJ3NoYXBlJzogKDEsIDcpLCB9ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIApPT+U+pkA+PwiIpr8xYdS/oKVxwLnxW8BcIa6/",
+                                "polygraphy_class": "ndarray"
+                            },
+                            "polygraphy_class": "LazyNumpyArray"
+                        }
+                    },
+                    "runtime": 0.3174424171447754,
+                    "runner_name": "onnxrt-runner-N0-02/22/22-16:08:12",
+                    "polygraphy_class": "IterationResult"
+                }
+            ]
+        ]
+    ],
+    "polygraphy_class": "RunResults"
+}
